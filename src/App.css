@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+  font-family: "Jost", sans-serif;
+}
+* {
+  font-family: "Jost", sans-serif;
+}
+.news-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1120px;
+  margin: 0 auto;
+  font-family: "Jost", sans-serif !important;
+}
+
+.news-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #f9f9f9;
+  font-family: "Jost", sans-serif !important;
+}
+
+.news-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+/* HEADER CSS */
+.news-header {
+  background-color: #0f172a;
+  padding: 8px 0;
+  color: white;
+}
+
+.news-header .container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 28px;
+  color: #fff;
+  font-family: "Bungee", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  padding: 22px 0px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 35px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links li a:hover {
+  text-decoration: underline;
+}
+/* NEWS SECTION */
+.news-section {
+  padding: 40px 0;
+  background-color: #f1f5f9;
+}
+.news-section .container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.news-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  margin-bottom: 35px;
+}
+
+.news-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.news-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+.news-card h2 {
+  font-size: 20px;
+  margin: 15px 0 10px;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #2563eb;
+  font-weight: 500;
+}
+/* FOOTER */
+.news-footer {
+  background-color: #0f172a;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+.article-detail {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.detail-img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.article-detail h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.article-detail p {
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+.article-detail .desc {
+  font-weight: 500;
+  color: #475569;
+}
+
+.article-detail .content {
+  color: #334155;
+  margin-top: 15px;
+}
+.hero {
+  background: linear-gradient(to right, #1f2d4d, #003ca1);
+  color: white;
+  padding: 60px 20px;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px;
+  flex-wrap: wrap;
+}
+
+.hero-text {
+  flex: 1 1 500px;
+}
+
+.hero-text h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  color: #cbd5e1;
+}
+
+.hero-btn {
+  background-color: #2563eb;
+  border: none;
+  padding: 14px 28px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.hero-btn:hover {
+  background-color: #1d4ed8;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  flex: 1 1 400px;
+  max-height: 420px;
+}
+.set-margin-padding {
+  padding-bottom: 0px;  
+}
+.set-margin-padding h2 {
+  margin-bottom: 0px;
+  font-size: 35px;
+  display: inline-block;
+  border-bottom: 4px solid #000;
+  width: 208px;
+}
+.set-container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+.news-card a {
+  background-color: #0f172a;
+  color: #fff;
+  padding: 8px 22px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.set-back-btn {
+  background-color: transparent;
+  border: 1px solid grey;
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 4px 12px;
+  cursor: pointer;
+  border-radius: 8px;
+}
