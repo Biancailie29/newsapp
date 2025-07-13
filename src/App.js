@@ -8,6 +8,7 @@ import CNN from './pages/CNN';
 import BBC from './pages/BBC';
 import Reuters from './pages/Reuters';
 import AlJazeera from './pages/AlJazeera';
+import Favorites from './pages/Favorites';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Route path="/nation" element={<BBC topic="nation" />} />
         <Route path="/technology" element={<Reuters topic="technology" />} />
         <Route path="/business" element={<AlJazeera topic="business" />} />
+        <Route path="/favorites" element={<Favorites />} />
       </Routes>
       <Footer />
     </Router>
